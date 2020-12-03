@@ -6,9 +6,9 @@ import math
 def main():
     """Função principal que será rodada quando o script for passado para o interpretador."""
     # COLOQUE SEU CÓDIGO AQUI
-    raio = float (input("Digite o valor do raio:"))
-    print('A área do círculo é: %.2f' % float(math.pi*(raio*raio)))
-  
+    raio = float(input('Digite o valor do raio:'))
+    area = math.pi*(raio*raio)
+    print (f'Área do círculo é: %.2f' % area)
     
 
 
