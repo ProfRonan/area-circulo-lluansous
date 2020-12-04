@@ -8,7 +8,7 @@ def main():
     # COLOQUE SEU CÓDIGO AQUI
     raio = float(input('Digite o valor do raio:'))
     area = math.pi*(raio*raio)
-    print (f'A área do círculo é: {area:.2f}')
+    print (f'A área do círculo é {area:.2f}')
     
 
 
